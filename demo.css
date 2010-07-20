@@ -1,0 +1,13 @@
+.gpPortfolio-LeftItem IMG {
+	margin-top:20px;
+}
+
+.gpPortfolio-RightItem h3 {
+	color:#0239a4;
+}
+
+.gpPortfolioCntnr h1.gpPortfolio-Title {
+	color:#0239a4;
+	font-family:Arial, Helvetica, sans-serif;
+	border-bottom-color: #0239a4;	
+}

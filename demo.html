@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Untitled Document</title>
+		<link rel="stylesheet" type="text/css" href="js/gpDojoWidgets/gpDojoPortfolio/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="demo.css">
+		<style>
+			body, html {
+				margin:0;
+				padding:0;
+			}
+		</style>
+		<script type="text/javascript" src="js/dojo/dojo.js" djConfig="parseOnLoad: true, isDebug: true, modulePaths:{'gp':'../gpDojoWidgets/gpDojoPortfolio'}"></script>
+		<script type="text/javascript">
+			//dojo.require("dojo.parser");
+			dojo.require("gp.gpDojoPortfolio");
+		</script>
+		<script type="text/javascript">
+			dojo.addOnLoad(function() {
+				var ga = new gp.gpDojoPortfolio({},'gpPortfolioCntnr');
+			});
+		</script>	
+	</head>
+	<body>
+		<div id="gpPortfolioCntnr" class="gpPortfolioCntnr">
+			<h1>This is my portfolio</h1>
+			<div class="gpPortfolioItem">
+				<ul>
+					<li>
+						<a href="http://web20.digitalvilliage.com" target="_blank"><img src="images/dvilliage.jpg" width="355px" height="200px" /></a>
+					</li>
+					<li>
+						<h3>DigitalVillage.com</h3>
+						<p>DigitalVilliage.com is one of our sites. The site has two subdomains (web20 and galleries). The web20 site will generate web 2.0 domain names (and search for availability). </p>
+						<p>You can also generate color harmonies from a Web 2.0 pallette, a Web216 pallette, or a selected image (or random Flickr image). </p>
+						<p>The galleries site displays a free Flash/XML photo gallery. <br/>We developed this site using CakePHP, JQuery and Flash/AS3.</p>
+						<p>Click <a href="http://web20.digitalvilliage.com" target="_blank">here</a> to view the site.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="gpPortfolioItem">
+				<ul>
+					<li>
+						<a href="http://grasshopperpebbles.com" target="_blank"><img src="images/gpebbles.jpg" width="350px" height="200px" /></a>
+					</li>
+					<li>
+						<h3>GrasshopperPebbles.com</h3>
+						<p>Grasshopperpebbles.com is our blog site. This blog focuses on Ajax Frameworks such as jQuery, YUI, and Dojo, but I also discuss other web technologies such as PHP, CSS, Flash, etc. </p>
+						<p>We developed this site using Wordpress and jQuery. We developed the demos section of the site using CodeIgniter.</p>
+						<p>Click <a href="http://grasshopperpebbles.com" target="_blank">here</a> to view the site.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="gpPortfolioItem">
+				<ul>
+					<li>
+						<a href="http://ietcorp.us" target="_blank"><img src="images/ietcorp.jpg" width="352px" height="200px" /></a>
+					</li>
+					<li>
+						<h3>IETCorp.us</h3>
+						<p>IET Corporation is a company that specialize in the design, installation, and servicing of customized low voltage systems.</p>
+						<p>We developed this site using Drupal. We designed a cutsom Drupal theme and created Drupal Google Maps module based upon our JQuery Google Maps Plugin.</p>
+						<p>Click <a href="http://ietcorp.us" target="_blank">here</a> to view the site.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="gpPortfolioItem">
+				<ul>
+					<li>
+						<a href="http://www.arrowcollegiatetour.com/" target="_blank"><img src="images/act.jpg" width="350px" height="200px" /></a>
+					</li>
+					<li>
+						<h3>ArrowCollegiateTour.com</h3>
+						<p>Arrow Collegiate Tour is an organization formed to introduce students to the heritage of Historically Black Colleges and Universities. </p>
+						<p>We developed this site using CodeIgniter, MySQL. We created CodeIgniter PayPal Helper that interacts with PayPal IPN and we developed a jQuery photo gallery plugin.</p>
+						<p>Click <a href="http://www.arrowcollegiatetour.com/" target="_blank">here</a> to view the site.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
